@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/popup.css">
+    <title>ProductivityPal</title>
+
+    <script src="scripts/popup.js"></script>
+</head>
+
+<body>
+    <main id="popup-main">
+        <section>
+            <h2>Blacklist Settings</h2>
+            <ul>
+            </ul>
+            <form id="add-website">
+                <input placeholder="exp. https://website.com" type="url">
+                <button type="submit">Add</button>
+            </form>
+        </section>
+        <section>
+            <h2>Block Preview</h2>
+            <div id="preview"></div>
+            <form id="preview-change">
+                <label for="quote-input">Quote text:</label>
+                <textarea id="quote-input" name="quote-input" placeholder="A wise man once said..."></textarea>
+                <label for="image-input">Quote Image:</label>
+                <input type="url" name="image-input" autocomplete="off" id="image-input" placeholder="Image Url...">
+                <label for="color-input">Quote color:</label>
+                <input type="color" name="color-input" id="color-input">
+                <button type="submit">Submit</button>
+            </form>
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+</body>
+
+</html>

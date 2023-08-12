@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#productivitypal-motivation-wrapper {
+    position: relative;
+    height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#productivitypal-motivation-img {
+    position: absolute;
+    height: 100%;
+}
+
+
+#productivitypal-motivation-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 400px;
+    line-height: 26px;
+}
