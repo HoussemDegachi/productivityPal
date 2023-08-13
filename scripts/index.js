@@ -1,4 +1,4 @@
-async function js() {
+async function main() {
   // global variables
   let imgUrl =
     "https://images.unsplash.com/photo-1621369116334-7913d4cff562?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80";
@@ -101,4 +101,4 @@ async function js() {
 
 };
 
-js();
+main();
